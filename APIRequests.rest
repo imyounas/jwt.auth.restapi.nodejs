@@ -1,0 +1,30 @@
+GET http://localhost:3200/items
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7Im5hbWUiOiJhQGdtYWlsLmNvbSJ9LCJjbGlhbXMiOlt7InJvbGUiOiJhZG1pbiJ9LHsiZGVwdCI6ImZpbmFuY2UifSx7InBob25lIjoiMTIzNDU2NzgifV0sImlhdCI6MTU5MTQzMzkwOSwiZXhwIjoxNTkxNDMzOTM5fQ.rDhFoVmPAx9uzPF3x3g6HjCy38DuQOUb8NzGfmrNrAU
+####
+
+POST http://localhost:4200/auth/login 
+Content-Type: application/json
+
+{
+"email": "a@gmail.com",
+"password" : "123"
+}
+
+###
+
+POST http://localhost:4200/auth/token 
+Content-Type: application/json
+
+{
+"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7Im5hbWUiOiJhQGdtYWlsLmNvbSJ9LCJpYXQiOjE1OTE0MzQxOTh9.HC70hmfGElcSkGDRxLysCge60McSbhejvPWJycfWz2U"
+}
+
+###
+
+POST http://localhost:4200/auth/logout 
+Content-Type: application/json
+
+{
+"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7Im5hbWUiOiJhQGdtYWlsLmNvbSJ9LCJpYXQiOjE1OTE0MzExNzd9.YFVb15GF41sSXUUUttZ7CN0Z1opVdHY88Sc2eHRxPeU"
+}
