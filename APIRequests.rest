@@ -1,6 +1,6 @@
 GET http://localhost:3200/items
 Content-Type: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7Im5hbWUiOiJhQGdtYWlsLmNvbSJ9LCJjbGlhbXMiOlt7InJvbGUiOiJhZG1pbiJ9LHsiZGVwdCI6ImZpbmFuY2UifSx7InBob25lIjoiMTIzNDU2NzgifV0sImlhdCI6MTU5MTQzMzkwOSwiZXhwIjoxNTkxNDMzOTM5fQ.rDhFoVmPAx9uzPF3x3g6HjCy38DuQOUb8NzGfmrNrAU
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7Im5hbWUiOiJhQGdtYWlsLmNvbSJ9LCJjbGlhbXMiOlt7InJvbGUiOiJhZG1pbiJ9LHsiZGVwdCI6ImZpbmFuY2UifSx7InBob25lIjoiMTIzNDU2NzgifV0sImlhdCI6MTU5MTUzNzc1NywiZXhwIjoxNTkxNTM3Nzg3fQ.iyBqT_LDJHcGhUllvmDjDuP4WUWVvxc7qNNPLwxAN6g
 ####
 
 POST http://localhost:4200/auth/login 
@@ -17,7 +17,7 @@ POST http://localhost:4200/auth/token
 Content-Type: application/json
 
 {
-"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7Im5hbWUiOiJhQGdtYWlsLmNvbSJ9LCJpYXQiOjE1OTE0MzQxOTh9.HC70hmfGElcSkGDRxLysCge60McSbhejvPWJycfWz2U"
+"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7Im5hbWUiOiJhQGdtYWlsLmNvbSJ9LCJpYXQiOjE1OTE1Mzc3NDF9.UDAhYhyd8tL6mtCejdnVFsFXlMizsEqe5RrxGbElAJc"
 }
 
 ###
@@ -26,5 +26,5 @@ POST http://localhost:4200/auth/logout
 Content-Type: application/json
 
 {
-"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7Im5hbWUiOiJhQGdtYWlsLmNvbSJ9LCJpYXQiOjE1OTE0MzExNzd9.YFVb15GF41sSXUUUttZ7CN0Z1opVdHY88Sc2eHRxPeU"
+"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7Im5hbWUiOiJhQGdtYWlsLmNvbSJ9LCJpYXQiOjE1OTE1Mzc3NDF9.UDAhYhyd8tL6mtCejdnVFsFXlMizsEqe5RrxGbElAJc"
 }
