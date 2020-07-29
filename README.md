@@ -4,3 +4,6 @@
 - Access Tokens with User Claims.
 - Revoke Tokens.
 - Logout & delete Tokens.
+
+### Companion Blog
+https://secureservercdn.net/192.169.221.188/w1j.cdd.myftpupload.com/nodejs-jwt-authentication/
